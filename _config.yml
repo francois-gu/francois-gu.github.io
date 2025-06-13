@@ -82,9 +82,14 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'JOURNAL ARTICLES'    
   conferences:
-    title: 'Conference Papers'
+    title: 'TALKS'
+  phd:
+    title: 'PhD'
+  popular:
+    title: 'POPULAR ARTICLES'
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -220,7 +225,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true

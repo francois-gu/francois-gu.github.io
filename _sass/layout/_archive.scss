@@ -79,9 +79,18 @@
     box-shadow: 0 0 10px rgba(#000, 0.25);
   }
 
-  .archive__item-title {
-    text-decoration: underline;
-  }
+  // .archive__item-title {
+  //   text-decoration: underline;
+  // }
+}
+
+.pub-meta {
+  margin-top: -0.5rem; /* Reduces space between title and metadata */
+  padding-left: 1rem;  /* Indent metadata under the title */
+}
+
+.pub-line {
+  margin: 0.1rem 0; /* Tighten spacing between lines */
 }
 
 
