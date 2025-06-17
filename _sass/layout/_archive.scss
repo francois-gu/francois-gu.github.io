@@ -14,6 +14,10 @@
     @include prefix(0.5 of 12);
   }
 
+  hr {
+    margin: 0.5em;
+  }
+
   a {
     text-decoration: underline;
 
@@ -40,7 +44,8 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em; /* RIGHT BELOW PUBLICATION TITLE */
+  margin-top: 0em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -85,12 +90,12 @@
 }
 
 .pub-meta {
-  margin-top: -0.5rem; /* Reduces space between title and metadata */
-  padding-left: 1rem;  /* Indent metadata under the title */
+  margin-top: 0rem; /* Reduces space between title and metadata */
+  padding-left: 2.5rem;  /* Indent metadata under the title */
 }
 
 .pub-line {
-  margin: 0.1rem 0; /* Tighten spacing between lines */
+  margin: 0rem 0; /* Tighten spacing between lines */
 }
 
 
