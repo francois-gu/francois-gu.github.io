@@ -9,11 +9,14 @@ redirect_from:
 
 <div style="display: flex; align-items: center; justify-content: center; min-height: 50vh; text-align: left;">
   <p style="font-size: 1.2em;">
-  
-Welcome!
-I hold a PhD in physics and have a strong interest in complex systems involving human behavior.
 
-Currently, I am a Postdoctoral Fellow at MIT’s Senseable City Lab, working under the supervision of Carlo Ratti and Paolo Santi. My research focuses on using concepts from physics and advanced data analysis to investigate human mobility dynamics in multiple urban contexts. 
+WORK IN PROGRESS - WORK IN PROGRESS - WORK IN PROGRESS<br />
+
+<br />
+Welcome!<br />
+I hold a PhD in physics and have a strong interest in complex systems involving human behavior.<br />
+
+Currently, I am a Postdoctoral Fellow at MIT’s Senseable City Lab, working under the supervision of Carlo Ratti and Paolo Santi. My research focuses on using concepts from physics and advanced data analysis to investigate human mobility dynamics in multiple urban contexts.<br />
 
 Previously, I completed my PhD at ENS de Lyon, where I studied the dynamics of dense crowds and fish schools—from on-the-ground data collection to detailed analysis and the extraction of the physical principles governing these systems.
 
