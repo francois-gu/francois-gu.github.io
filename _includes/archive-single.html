@@ -26,31 +26,41 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <p class="archive__item-title" itemprop="headline">
       <!-- {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %} -->
         {% if post.title %}
-        {{ title }}
+        <b style="font-weight: bold;">{{ title }}</b>
         {% endif %}
-    </h2>
+      </p>
     
-    {% if post.read_time %}
+    <!-- {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+    {% endif %} -->
     
     <div class="pub-meta">
       {% if post.authors %}
       <p class="pub-line">{{ post.authors }}</p>
       {% endif %}
+
       {% if post.journal and post.journal_url %}
-      <p class="pub-line"><a href="{{ post.journal_url }}">{{ post.journal }}</a></p>
+      <p class="pub-line"><a href="{{ post.journal_url }}" style="text-decoration: none; color:  #54aec8;">{{ post.journal }}</a></p>
       {% elsif post.journal %}
       <p class="pub-line">{{ post.journal }}</p>
+      {% elsif post.conference and post.conference_url %}
+      <p class="pub-line"><a href="{{ post.conference_url }}"  style="text-decoration: none; color:  #54aec8;">{{ post.conference }}</a> - {{post.location}} - <em>{{post.ddate}}</em></p>
+      {% elsif post.conference %}
+      <p class="pub-line">{{ post.conference }} - {{post.location}} - <em>{{post.ddate}}</em></p>
+      {% endif %}
+
+      {% if post.comments %}
+      <p class="pub-line"><em>{{ post.comments }}</em></p>
       {% endif %}
     </div>
+
 
     <!-- {% if post.authors %}
       <p> {{ post.authors }}</p>

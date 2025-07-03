@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #54aec8;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none; // also no underline on hover/focus
+    color: darken(#54aec8, 10%); // optional darker hover color
+  }
