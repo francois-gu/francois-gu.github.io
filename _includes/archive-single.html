@@ -47,11 +47,11 @@
       {% endif %}
 
       {% if post.journal and post.journal_url %}
-      <p class="pub-line"><a href="{{ post.journal_url }}" style="text-decoration: none; color:  #54aec8;">{{ post.journal }}</a></p>
+      <p class="pub-line"><a href="{{ post.journal_url }}" style="text-decoration: none; color: #f39c12 ;">{{ post.journal }}</a></p>
       {% elsif post.journal %}
       <p class="pub-line">{{ post.journal }}</p>
       {% elsif post.conference and post.conference_url %}
-      <p class="pub-line"><a href="{{ post.conference_url }}"  style="text-decoration: none; color:  #54aec8;">{{ post.conference }}</a> - {{post.location}} - <em>{{post.ddate}}</em></p>
+      <p class="pub-line"><a href="{{ post.conference_url }}"  style="text-decoration: none; color: #f39c12;">{{ post.conference }}</a> - {{post.location}} - <em>{{post.ddate}}</em></p>
       {% elsif post.conference %}
       <p class="pub-line">{{ post.conference }} - {{post.location}} - <em>{{post.ddate}}</em></p>
       {% endif %}
@@ -61,6 +61,10 @@
       {% endif %}
     </div>
 
+
+    <!-- #f39c12  -->
+    <!-- #d35400  -->
+    <!-- #54aec8 -->
 
     <!-- {% if post.authors %}
       <p> {{ post.authors }}</p>

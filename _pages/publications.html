@@ -7,7 +7,7 @@ header: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my work on my <a href="{{site.author.googlescholar}}"  style="text-decoration: none; color:  #54aec8;">Google Scholar profile</a>!</div>
+  <div class="wordwrap">You can also find my work on my <a href="{{site.author.googlescholar}}"  style="text-decoration: none; color: #f39c12;">Google Scholar profile</a>!</div>
 {% endif %}
 
 {% include base_path %}
@@ -21,7 +21,7 @@ header: false
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2 style="color:  #138d75 ;">{{ category[1].title }}</h2><hr />
+        <h2 style="color: #dc7633 ;">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -39,3 +39,6 @@ header: false
 <!-- #13505B -->
 <!-- #764248 -->
 <!-- #1B4965 -->
+
+<!-- #54aec8 default hyperref ~cyan -->
+<!-- #138d75 teal -->
