@@ -10,7 +10,7 @@ header: false
 
 {% include base_path %}
 
-<h2 style="color: #138d75 ">Research</h2>
+<h2 style="color: #dc7633 ">Research</h2>
 <!-- Work Experience -->
 <!-- ====== -->
 **2025-ongoing: Postdoctoral Fellow in Urban Science - Human Mobility**\
@@ -55,7 +55,7 @@ Beijing CSRC and Hong Kong Baptist University, China
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
 
-<h2 style="color: #138d75 ">Education</h2>
+<h2 style="color: #dc7633 ">Education</h2>
 <!-- Education
 ====== -->
 **2021-2024: PhD in Physics - Crowd Dynamics**\
@@ -83,7 +83,7 @@ Lycée Joffre, Montpellier, France
   * Sub-skill 2.3
 * Skill 3 -->
 
-<h2 style="color: #138d75 ">Publications</h2>
+<h2 style="color: #dc7633 ">Publications</h2>
 <!-- Publications
 ====== -->
   <ul style="list-style: none; padding-left: 0;">
